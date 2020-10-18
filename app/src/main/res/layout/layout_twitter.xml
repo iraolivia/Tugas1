@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/profile_twitter"
+        android:layout_width="78dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/sonia_marnez___moda__belleza__lifestyle__diy__sobres_handmade_para_las_notas_de_agradecimiento_en_la_boda"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/text_twit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Twitter"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="83dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
