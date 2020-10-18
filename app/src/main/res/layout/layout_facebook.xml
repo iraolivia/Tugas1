@@ -11,8 +11,8 @@
         android:layout_width="78dp"
         android:layout_height="67dp"
         app:srcCompat="@drawable/pink_and_black_facebook_icon___rosa_icono_facebook_png_transparent_png___800x800___free_download_on_nicepng"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/text_fb"
@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:text="Facebook"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="83dp" />
+        app:layout_constraintTop_toBottomOf="@+id/profile_facebook"
+        app:layout_constraintEnd_toEndOf="@+id/profile_facebook"
+        app:layout_constraintStart_toStartOf="@+id/profile_facebook" />
 </androidx.constraintlayout.widget.ConstraintLayout>
