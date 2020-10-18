@@ -11,7 +11,7 @@
         android:layout_width="78dp"
         android:layout_height="67dp"
         app:srcCompat="@drawable/sonia_marnez___moda__belleza__lifestyle__diy__sobres_handmade_para_las_notas_de_agradecimiento_en_la_boda"
-        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <TextView
@@ -20,6 +20,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:text="Twitter"
-        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteX="29dp"
         tools:layout_editor_absoluteY="83dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

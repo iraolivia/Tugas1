@@ -7,21 +7,19 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/profile_instagram"
+        android:id="@+id/profile_facebook"
         android:layout_width="78dp"
         android:layout_height="67dp"
-        app:srcCompat="@drawable/montoneras"
+        app:srcCompat="@drawable/pink_and_black_facebook_icon___rosa_icono_facebook_png_transparent_png___800x800___free_download_on_nicepng"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <TextView
-        android:id="@+id/text_ig"
+        android:id="@+id/text_fb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="Instagram"
-        android:textColorHighlight="#FFFFFF"
-        android:textColorHint="#FFFFFF"
+        android:text="Facebook"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="83dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
